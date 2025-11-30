@@ -1,0 +1,26 @@
+# Python bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Environnements virtuels
+env/
+venv/
+
+# Fichiers de logs
+*.log
+
+# Fichiers de configuration de l'IDE
+.idea/
+.vscode/
+
+# Fichiers système
+.DS_Store
+
+# Fichiers SQLite pour la mémoire à long terme (crewai_storage)
+crewai_storage/
+
+# Clés API ou fichiers sensibles
+*.env
+*.apikey
